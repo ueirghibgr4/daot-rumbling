@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "daot_rumbling",
+  "version": "${version}",
+  "name": "DAOT - The Rumbling",
+  "description": "An addon for Danny's AOT. Type /daot start rumbling and the Colossal Titans march out of the walls and flatten everything. /daot stop rumbling makes them all vanish.",
+  "authors": ["YourNameHere"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.rumblingmod.RumblingMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
